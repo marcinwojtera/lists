@@ -2,10 +2,6 @@
 const Common = require('./Common');
 
 class TwoWayList extends Common {
-	constructor() {
-		super();
-		this.head = null;
-	}
 
 	createElement(val, next = null, prev = null) {
 		return { val, next, prev };

@@ -3,11 +3,6 @@ const Common = require('./Common');
 
 class OneWayList extends Common {
 
-	constructor() {
-		super();
-		this.head = null;
-	}
-
 	createElement(val, next = null) {
 		return { val, next };
 	}
